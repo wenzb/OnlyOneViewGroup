@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wzb.onlyoneviewgroup.OnlyOneViewGroup
+        android:id="@+id/test_only_one_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#182ef2"
+            android:gravity="center"
+            android:text="布局文件载入1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f2bf18"
+            android:gravity="center"
+            android:text="布局文件载入2"
+            android:textSize="20sp" />
+
+    </com.wzb.onlyoneviewgroup.OnlyOneViewGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/test_show_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="showNext" />
+
+        <Button
+            android:id="@+id/test_show_index_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="showIndex_2" />
+
+    </LinearLayout>
+
+</LinearLayout>

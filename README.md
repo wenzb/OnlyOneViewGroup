@@ -89,10 +89,10 @@ tvLayout2=mOnlyOneViewGroup.findViewById(R.id.test_layout2_tv);
      */
      public void showLast()
      
-      /**
-       * 显示上一个View 第0个时候显示最后一个
-        */
-       public void showLastCirculation()
+    /**
+     * 显示上一个View 第0个时候显示最后一个
+     */
+    public void showLastCirculation()
 
     /**
      * 在最后一个时显示第0个

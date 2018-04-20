@@ -1,6 +1,12 @@
 # OnlyOneViewGroup
 一组View只显示其中一个，用于类似注册等下一步切换UI功能，且不新建Activity。
 
+</br>
+
+<img src="https://github.com/wenzb/OnlyOneViewGroup/blob/master/app/src/main/res/raw/test.gif" width="266px" width="484px" />
+</br>
+
+
 ## 使用步骤：
 
 allprojects {

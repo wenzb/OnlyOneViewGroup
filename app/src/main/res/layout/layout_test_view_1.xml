@@ -6,7 +6,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center_horizontal"
-        android:text="layout资源文件载入1"
+        android:text="layout资源文件载入2"
         android:textSize="20sp"
         android:gravity="center"
         android:background="#d941dc"

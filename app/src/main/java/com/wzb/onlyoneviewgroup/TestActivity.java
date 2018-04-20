@@ -24,7 +24,7 @@ public class TestActivity extends AppCompatActivity {
         mOnlyOneViewGroup.setAddToBackTask(true);
 
         tvLayout2=mOnlyOneViewGroup.findViewById(R.id.test_layout2_tv);
-        tvLayout2.setText("Activity setText");
+        tvLayout2.setText("Activity setText 4");
 
         findViewById(R.id.test_show_next).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,12 +32,21 @@ public class TestActivity extends AppCompatActivity {
                 mOnlyOneViewGroup.showNextCirculation();
             }
         });
+
+        findViewById(R.id.test_show_last).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mOnlyOneViewGroup.showLastCirculation();
+            }
+        });
         findViewById(R.id.test_show_index_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mOnlyOneViewGroup.showIndexView(5);
+                mOnlyOneViewGroup.showIndexView(2);
             }
         });
+
+
 
 
     }

@@ -114,6 +114,7 @@ public class OnlyOneViewGroup extends FrameLayout {
         if (index > allOrderViews.size() - 1) {
             index = allOrderViews.size() - 1;
         }
+
         for (int i = 0; i < allOrderViews.size(); i++) {
             if (i == index) {
                 allOrderViews.get(i).setVisibility(View.VISIBLE);
@@ -132,6 +133,30 @@ public class OnlyOneViewGroup extends FrameLayout {
             return;
         }
         showIndexView(currentViewIndex + 1);
+    }
+
+    /**
+     * 显示上一个View
+     */
+    public void showLast() {
+        if (allOrderViews.size() < 2) {
+            return;
+        }
+        showIndexView(currentViewIndex - 1);
+    }
+
+    /**
+     * 显示上一个View 第0个时候显示最后一个
+     */
+    public void showLastCirculation() {
+        if (allOrderViews.size() < 2) {
+            return;
+        }
+        if (currentViewIndex==0){
+            showIndexView(allOrderViews.size()-1);
+        }else{
+            showIndexView(currentViewIndex - 1);
+        }
     }
 
     /**

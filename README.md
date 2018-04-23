@@ -17,7 +17,7 @@ allprojects {
 	}
 
 dependencies {
-	compile 'com.github.wenzb:OnlyOneViewGroup:1.0.2'
+	compile 'com.github.wenzb:OnlyOneViewGroup:1.0.1'
 	}
 	
 ```
